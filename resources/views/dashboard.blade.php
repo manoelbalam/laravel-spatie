@@ -19,7 +19,7 @@
 
                     @if($role)
                         <p class="mt-4">
-                            {{ __("You're logged in as") }}
+                            {{ __("You're logged in asa") }}
                             <strong class="text-green-600">{{ ucfirst($role) }}</strong>!
                         </p>
                     @else
