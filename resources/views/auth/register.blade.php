@@ -11,9 +11,9 @@
 
         <!-- Role -->
         <div>
-            <x-input-label for="name" :value="__('Role')" />
-            <x-form-roles-dropdown id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
-            <x-input-error :messages="$errors->get('name')" class="mt-2" />
+            <x-input-label for="roles" :value="__('Roles')" />
+            <x-form-roles-dropdown id="roles" class="block mt-1 w-full" type="text" name="roles" :value="old('roles')" required autofocus autocomplete="roles" />
+            <x-input-error :messages="$errors->get('roles')" class="mt-2" />
         </div>
 
         <!-- Email Address -->
